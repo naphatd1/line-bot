@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "nodemon ./bin/www",
-    "start":"pm2-runtime ./bin/www -i max"
+    "start": "nodemon ./bin/www"
   },
   "dependencies": {
     "@line/bot-sdk": "^7.5.2",
